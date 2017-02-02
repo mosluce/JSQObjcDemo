@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DemoChatViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DemoChatViewController *vc = [DemoChatViewController messagesViewController];
+    
+    [self.navigationController pushViewController:vc animated:true];
 }
 
 
@@ -24,6 +28,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

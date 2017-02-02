@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9881DCB7F86103F9E22EE1 /* libPods-JSQObjcDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6A3D3DE5113C43056FE4B0 /* libPods-JSQObjcDemo.a */; };
 		44DC548C1E42D87A0099F0E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DC548B1E42D87A0099F0E8 /* main.m */; };
 		44DC548F1E42D87A0099F0E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DC548E1E42D87A0099F0E8 /* AppDelegate.m */; };
 		44DC54921E42D87A0099F0E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DC54911E42D87A0099F0E8 /* ViewController.m */; };
 		44DC54951E42D87A0099F0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DC54931E42D87A0099F0E8 /* Main.storyboard */; };
 		44DC54971E42D87A0099F0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DC54961E42D87A0099F0E8 /* Assets.xcassets */; };
 		44DC549A1E42D87A0099F0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DC54981E42D87A0099F0E8 /* LaunchScreen.storyboard */; };
+		44DC54A51E430D3A0099F0E8 /* DemoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DC54A41E430D3A0099F0E8 /* DemoChatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		44DC54961E42D87A0099F0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44DC54991E42D87A0099F0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44DC549B1E42D87A0099F0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44DC54A31E430D3A0099F0E8 /* DemoChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoChatViewController.h; sourceTree = "<group>"; };
+		44DC54A41E430D3A0099F0E8 /* DemoChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoChatViewController.m; sourceTree = "<group>"; };
+		D9719BA7117820170C1A2AC2 /* Pods-JSQObjcDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQObjcDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSQObjcDemo/Pods-JSQObjcDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEC5F2ECD779A9EE8E440450 /* Pods-JSQObjcDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQObjcDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSQObjcDemo/Pods-JSQObjcDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6A3D3DE5113C43056FE4B0 /* libPods-JSQObjcDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSQObjcDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9881DCB7F86103F9E22EE1 /* libPods-JSQObjcDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5C54E6B59F4E9B7C256BE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB6A3D3DE5113C43056FE4B0 /* libPods-JSQObjcDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44DC547E1E42D87A0099F0E8 = {
 			isa = PBXGroup;
 			children = (
 				44DC54891E42D87A0099F0E8 /* JSQObjcDemo */,
 				44DC54881E42D87A0099F0E8 /* Products */,
+				DF932BA69BB806C9C9C110D3 /* Pods */,
+				3F5C54E6B59F4E9B7C256BE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +80,8 @@
 				44DC548E1E42D87A0099F0E8 /* AppDelegate.m */,
 				44DC54901E42D87A0099F0E8 /* ViewController.h */,
 				44DC54911E42D87A0099F0E8 /* ViewController.m */,
+				44DC54A31E430D3A0099F0E8 /* DemoChatViewController.h */,
+				44DC54A41E430D3A0099F0E8 /* DemoChatViewController.m */,
 				44DC54931E42D87A0099F0E8 /* Main.storyboard */,
 				44DC54961E42D87A0099F0E8 /* Assets.xcassets */,
 				44DC54981E42D87A0099F0E8 /* LaunchScreen.storyboard */,
@@ -79,6 +99,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DF932BA69BB806C9C9C110D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5F2ECD779A9EE8E440450 /* Pods-JSQObjcDemo.debug.xcconfig */,
+				D9719BA7117820170C1A2AC2 /* Pods-JSQObjcDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44DC549E1E42D87A0099F0E8 /* Build configuration list for PBXNativeTarget "JSQObjcDemo" */;
 			buildPhases = (
+				42E990B0BC023362E8CAA919 /* [CP] Check Pods Manifest.lock */,
 				44DC54831E42D87A0099F0E8 /* Sources */,
 				44DC54841E42D87A0099F0E8 /* Frameworks */,
 				44DC54851E42D87A0099F0E8 /* Resources */,
+				4F8165FE0F0F339795639904 /* [CP] Embed Pods Frameworks */,
+				741678138F2015C57309F8E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +178,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42E990B0BC023362E8CAA919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8165FE0F0F339795639904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSQObjcDemo/Pods-JSQObjcDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		741678138F2015C57309F8E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSQObjcDemo/Pods-JSQObjcDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44DC54831E42D87A0099F0E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,6 +234,7 @@
 				44DC54921E42D87A0099F0E8 /* ViewController.m in Sources */,
 				44DC548F1E42D87A0099F0E8 /* AppDelegate.m in Sources */,
 				44DC548C1E42D87A0099F0E8 /* main.m in Sources */,
+				44DC54A51E430D3A0099F0E8 /* DemoChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +350,7 @@
 		};
 		44DC549F1E42D87A0099F0E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC5F2ECD779A9EE8E440450 /* Pods-JSQObjcDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E5H4JDK8B;
@@ -281,6 +363,7 @@
 		};
 		44DC54A01E42D87A0099F0E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9719BA7117820170C1A2AC2 /* Pods-JSQObjcDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E5H4JDK8B;
@@ -310,6 +393,7 @@
 				44DC54A01E42D87A0099F0E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
